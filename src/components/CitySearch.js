@@ -1,17 +1,9 @@
 import React, { useState } from 'react';
 import { Row, Col, FormControl, Button } from 'react-bootstrap';
-import { API_KEY, API_BASE_URL } from '../apis/config';
 
-const CitySearch = () => {
+const CitySearch = ({onSearch}) => {
 
     const [city, setCity] = useState('');
-    const [results, setResults] = useState(null);
-
-    const onSearch = () => {
-        fetch(`${API_BASE_URL}/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`)
-            .then((response) => response.json())
-            .then((result) => setResults(result));
-    };
 
     const onKeyDown = (event) => {
         if (event.keyCode === 13) {
@@ -40,7 +32,7 @@ const CitySearch = () => {
 
             <Row>
                 <Col>
-                    <Button onClick={onSearch} >Check Weather</Button>
+                    <Button onClick={() => onSearch(city)} >Check Weather</Button>
                 </Col>
             </Row>
         </>
