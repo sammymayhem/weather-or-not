@@ -5,11 +5,11 @@ const CitySearch = ({onSearch}) => {
 
     const [city, setCity] = useState('');
 
-    const onKeyDown = (event) => {
-        if (event.keyCode === 13) {
-            onSearch();
-        }
-    };
+    // const onKeyDown = (event) => {
+    //     if (event.keyCode === 13) {
+    //         onSearch();
+    //     }
+    // };
 
     return (
         <>
@@ -25,7 +25,7 @@ const CitySearch = ({onSearch}) => {
                         placeholder="Enter city"
                         onChange={(event) => setCity(event.target.value)}
                         value={city}
-                        onKeyDown={onKeyDown}
+                        // onKeyDown={onKeyDown}
                          />
                 </Col>
             </Row>
