@@ -9,6 +9,6 @@ const App = () => {
       <CitySearch />
     </Container>
   );
-}
+};
 
 export default App;
