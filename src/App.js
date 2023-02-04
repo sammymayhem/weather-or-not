@@ -1,18 +1,13 @@
 import React from 'react';
-import Weather from './components/Weather';
+import CitySearch from './components/CitySearch';
 import './App.css';
+import { Container } from 'react-bootstrap';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Weather
-        dt={1602104400 * 1000}
-        temp_min='22.67'
-        temp_max='24.39'
-        main='Clear'
-        icon='01d'
-      />
-    </div>
+    <Container className="App">
+      <CitySearch />
+    </Container>
   );
 }
 
