@@ -1,10 +1,11 @@
 import React from 'react';
-import CitySearch from './components/CitySearch';
 import './App.css';
 import { Container } from 'react-bootstrap';
 import UseFetch from './hooks/UseFetch';
 import { API_KEY, API_BASE_URL } from './apis/config';
+import CitySearch from './components/CitySearch';
 import WeatherList from './components/WeatherList';
+import Header from './components/Header';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
 
   return (
     <Container className="App">
+      <Header />
       <CitySearch
         onSearch={(city) => setUrl(`${API_BASE_URL}/data/2.5/forecast?q=${city}&cnt=5&appid=${API_KEY}`)} />
 

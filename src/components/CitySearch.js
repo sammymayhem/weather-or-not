@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, FormControl, Button } from 'react-bootstrap';
+import '../styles/CitySearch.css';
 
 const CitySearch = ({onSearch}) => {
 
@@ -12,7 +13,7 @@ const CitySearch = ({onSearch}) => {
     // };
 
     return (
-        <>
+        <div className='search-container'>
             <Row>
                 <Col>
                     <h1>Search your city</h1>
@@ -32,10 +33,10 @@ const CitySearch = ({onSearch}) => {
 
             <Row>
                 <Col>
-                    <Button onClick={() => onSearch(city)} >Check Weather</Button>
+                    <Button onClick={() => onSearch(city)}>Check Weather</Button>
                 </Col>
             </Row>
-        </>
+        </div>
     );
 
 };
