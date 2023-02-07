@@ -2,3 +2,12 @@
     padding-top: 20px;
     color: var(--secondary);
 }
+
+.search-btn {
+    background-color: var(--primary) !important;
+}
+
+.search-btn:hover {
+    background-color: var(--secondary) !important;
+    color: var(--primary) !important;
+}

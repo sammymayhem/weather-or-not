@@ -9,6 +9,7 @@ html {
 
 .app-container {
   background-color: var(--primary);
+  color: var(--secondary);
 }
 
 .App {

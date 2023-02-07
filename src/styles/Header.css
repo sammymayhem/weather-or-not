@@ -1,7 +1,7 @@
 .header-container {
     background-color: var(--primary);
     color: var(--secondary);
-    padding: 20px 0px; 
+    padding: 20px 0px 5px 0px; 
     width: 100%;
     border-bottom: 1px solid var(--secondary);
     text-align: left;

@@ -18,6 +18,7 @@ const App = () => {
     return <WeatherList weathers={data.list} />
   }
 
+
   return (
     <div className='app-container'>
       <Container className="App">

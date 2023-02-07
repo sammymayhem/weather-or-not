@@ -33,7 +33,7 @@ const CitySearch = ({onSearch}) => {
 
             <Row>
                 <Col>
-                    <Button onClick={() => onSearch(city)}>Check Weather</Button>
+                    <Button className='search-btn' onClick={() => onSearch(city)}>Check Weather</Button>
                 </Col>
             </Row>
         </div>

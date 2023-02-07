@@ -1,5 +1,17 @@
+.title-row {
+    color: var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+    text-align: left;
+    justify-content: space-between;
+}
+
+.title-right {
+    font-size: 20px;
+}
+
 .weather-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
