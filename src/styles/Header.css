@@ -1,6 +1,10 @@
 .header-container {
-    background-color: grey;
+    background-color: var(--primary);
+    color: var(--secondary);
     padding: 20px 0px; 
+    width: 100%;
+    border-bottom: 1px solid var(--secondary);
+    text-align: left;
 }
 
 .header {

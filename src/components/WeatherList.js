@@ -4,6 +4,9 @@ import Weather from './Weather';
 import '../styles/WeatherList.css';
 
 const WeatherList = ({ weathers }) => {
+
+    console.log(weathers)
+
     return (
         <div className="weather-container">
             <Row>

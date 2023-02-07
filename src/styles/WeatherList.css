@@ -6,6 +6,6 @@
 .weather-list {
     flex-direction: row;
     justify-content: center;
-    background-color: grey;
+    background-color: var(--primary);
 }
 

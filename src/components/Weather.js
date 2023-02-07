@@ -3,7 +3,11 @@ import { Card } from 'react-bootstrap';
 import '../styles/Weather.css';
 
 const Weather = ({ dt, temp_min, temp_max, main, icon }) => {
+
     const date = new Date(dt);
+
+    
+
     return (
         <div className='weather-card'>
             <Card style={{ width: '12rem' }}>

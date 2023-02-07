@@ -1,5 +1,19 @@
+:root {
+	--primary: #1b263b;
+	--secondary: #e0e1dd;
+}
+
+html {
+  background-color: var(--primary);
+}
+
+.app-container {
+  background-color: var(--primary);
+}
+
 .App {
   text-align: center;
+  background-color: var(--primary);
 }
 
 .row {
