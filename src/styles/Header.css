@@ -5,9 +5,8 @@
     width: 100%;
     border-bottom: 1px solid var(--secondary);
     text-align: left;
+    font-family: 'Jost', sans-serif;
 }
 
-.header {
-    width: 100%;
-}
+
 

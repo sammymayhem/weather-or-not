@@ -16,14 +16,14 @@ const CitySearch = ({onSearch}) => {
         <div className='search-container'>
             <Row>
                 <Col>
-                    <h1>Search your city</h1>
+                    <h1 className='search-title'>Enter a city</h1>
                 </Col>
             </Row>
 
             <Row>
                 <Col xs={4} className="text-center">
                     <FormControl
-                        placeholder="Enter city"
+                        placeholder="Enter a city"
                         onChange={(event) => setCity(event.target.value)}
                         value={city}
                         // onKeyDown={onKeyDown}

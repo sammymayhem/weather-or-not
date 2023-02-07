@@ -3,6 +3,7 @@
     border-bottom: 1px solid var(--secondary);
     text-align: left;
     justify-content: space-between;
+    font-family: 'Overpass', sans-serif;
 }
 
 .title-right {

@@ -3,11 +3,18 @@
     color: var(--secondary);
 }
 
+.search-title {
+    font-family: 'Overpass', sans-serif;
+}
+
 .search-btn {
     background-color: var(--primary) !important;
+    font-family: 'Overpass', sans-serif !important;
 }
 
 .search-btn:hover {
     background-color: var(--secondary) !important;
     color: var(--primary) !important;
+    font-family: 'Overpass', sans-serif !important;
 }
+

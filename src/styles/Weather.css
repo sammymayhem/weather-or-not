@@ -4,4 +4,5 @@
 
 .weather-body {
     background-color: var(--primary) !important;
+    font-family: 'Overpass', sans-serif;
 }
