@@ -23,7 +23,7 @@ const App = () => {
       <Container className="App">
         <Header />
         <CitySearch
-          onSearch={(city) => setUrl(`${API_BASE_URL}/data/2.5/forecast?q=${city}&cnt=5&appid=${API_KEY}`)} />
+          onSearch={(city) => setUrl(`${API_BASE_URL}/data/2.5/forecast?q=${city}&cnt=5&units=imperial&appid=${API_KEY}`)} />
 
         {getContent()}
       </Container>
